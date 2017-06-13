@@ -7,12 +7,20 @@
 //
 
 #import "HSAppDelegate.h"
+#import "HSDownLoadListenVC.h"
+
 
 @implementation HSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    HSDownLoadListenVC *vc = [[HSDownLoadListenVC alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    
+    
     return YES;
 }
 

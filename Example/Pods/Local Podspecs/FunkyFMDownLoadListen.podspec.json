@@ -1,0 +1,35 @@
+{
+  "name": "FunkyFMDownLoadListen",
+  "version": "0.1.0",
+  "summary": "FunkyFMDownLoadListen",
+  "description": "FunkyFMDownLoadListen 是FM的第三大模块，下载听",
+  "homepage": "https://github.com/funkyHS/FunkyFMDownLoadListen",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "funkyHS": "hs1024942667@163.com"
+  },
+  "source": {
+    "git": "https://github.com/funkyHS/FunkyFMDownLoadListen.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FunkyFMDownLoadListen/Classes/**/*",
+  "resource_bundles": {
+    "FunkyFMDownLoadListen": [
+      "FunkyFMDownLoadListen/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "FunkySegmentBar": [
+
+    ],
+    "FunkyFMBase/Base": [
+
+    ]
+  }
+}

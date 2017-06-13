@@ -1,0 +1,1611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A8B0BCDD3B9490C14678E9179539B2 /* HSSementBarVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 311CFAA938FB6EC11DC0EFE48E072E7A /* HSSementBarVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01EA469340E579D6BC8A36F7DCFBEA56 /* HSNoDownLoadView.h in Headers */ = {isa = PBXBuildFile; fileRef = D711A83C256025A8D7C563AACDA39202 /* HSNoDownLoadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5B2385DFF1773AA24273DBB7DF0192 /* album_tracks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EC0B08169CD8B3BFEFD4401B503F71 /* album_tracks@2x.png */; };
+		0A898F43ECD6E3642EE1C2346F647242 /* cell_sound_disable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA48D6E184DACA64E4321BA44BFA0C5 /* cell_sound_disable@3x.png */; };
+		13E31B536FF56398B86144648900173A /* pay_downloadfail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7F7243EA90608D37EABC18795C9D9C /* pay_downloadfail@2x.png */; };
+		147AE4E78D0D258E47A4A7C9EC1EFE2A /* sound_progress_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83A5434CA89570784BF81C6A6F223F3 /* sound_progress_n@2x.png */; };
+		16102D3BBE3FA5CBAE2AEE8AEB9A829E /* sound_progress_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C87553E9525D4A7370FA760A05C05B /* sound_progress_h@2x.png */; };
+		16D3AB518F6DF71DDDC97826470BE007 /* HSDownLoadingTVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3A8800AE23B46FA765EE2ED52175A5 /* HSDownLoadingTVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CC86664E578FD4273B4EAD5E597FB92 /* UIView+HSLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD0C9CE7630FCB802677DB23D59957F /* UIView+HSLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2484986C2B7769FBA9D9AC89EB419825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3981570E65F0C9FCF8F6E88CFDA8943 /* Foundation.framework */; };
+		258CA51A9512910E2D258BA9D287F15F /* sound_duration@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC97A5A49725AD16D45B4E31E91CAD37 /* sound_duration@3x.png */; };
+		27FD241514D0C8272A4019322973856B /* HSSementBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F366EEC6DF30FAB4E80A08AF1628A /* HSSementBarVC.m */; };
+		2A429C4C343573DBCE8890CD98971F9B /* cell_downloaded@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 418B3393D1212107B64FE12FC607DF17 /* cell_downloaded@2x.png */; };
+		2F87AA3EC5F6DC5F60D1E74811EF7C50 /* FunkyFMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36F021DB85C5A722E57D79F88DF3A0B /* FunkyFMBase.framework */; };
+		30AE761C8396B643C22E0597522E82ED /* FunkyFMDownLoadListen.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72DF617FE4FB457FAE317E07966EAE39 /* FunkyFMDownLoadListen.bundle */; };
+		3339DC5FC66E73654E15B88B65F2D805 /* cell_download_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A95DFC422D08D056F4145FF570D5D5 /* cell_download_loading@2x.png */; };
+		33502145BD143884E515CB036EECE035 /* paused@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7334C4A831809D11E4E01C2303451193 /* paused@2x.png */; };
+		337B0B34B9E2893871EB41840C1ABF2C /* UIView+HSNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD5FC6B7C87594F4B543829BEAD32E /* UIView+HSNib.m */; };
+		372D8C01A0F5CD61FF76EDB065473588 /* cell_download_loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C18B80B0603BB08ED48563FA74069D99 /* cell_download_loading@3x.png */; };
+		3B4776903A5917E14D6F0D0E6D1DE394 /* noData_download.png in Resources */ = {isa = PBXBuildFile; fileRef = 816D83636B1E18494F6978928983C43E /* noData_download.png */; };
+		3C1A6263C5742B0353EC1F3EA324EBFD /* deleteCell_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A574C04E99D025051EF1EC870784931 /* deleteCell_h@3x.png */; };
+		3E2A4B19F7C05FA000616575348EFADA /* Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 4299A43D255E0CE7658194026089B38D /* Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4393E186C8A2397B6A268E955910F8D1 /* album_tracks@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7159E6DCA908CE3E8E1FAD7F95E3A52B /* album_tracks@3x.png */; };
+		4488F16EB3552E016EB17CF7DB7A5995 /* HSAlbumTVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 058ECF4EBB506020CE8E023BBBB8314F /* HSAlbumTVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46AADA8BBD3D5864ACA6C8F0366AA097 /* HSVoiceTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C8A5B59FFF228F5813E87FF4E013F /* HSVoiceTVC.m */; };
+		46C9AD642B40D32225990E67F680868D /* btn_downloadsound_pause_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB0E36205DA79548877A872EA766E1F /* btn_downloadsound_pause_h@3x.png */; };
+		486461807B98CD082778AE417FB8EF88 /* cell_sound_play_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2141E88ED980D08B406ACB55A85D6D6C /* cell_sound_play_n@3x.png */; };
+		4B9B9A27A37CB4E987A2D5955AA92655 /* HSSegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CC928CC64679EAB57403285CB783F23C /* HSSegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA83DB19FAC00E3E2DAF8C8F7F11019 /* FunkyFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEE541B91486A35E3B7F3A429804C9C /* FunkyFMBase-dummy.m */; };
+		4CD7BE210F3D18AB8E6835F43AFD9949 /* sound_comments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05C22C41257FA8954B4783DB8F413B /* sound_comments@2x.png */; };
+		54A8AC54DB9DE1DF5831C49E6C56EC6E /* tab_download_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E93F82A4F36494B800CFFD366AAC5C /* tab_download_n@2x.png */; };
+		56C75622E0EA9E4A9D7CD6721B176C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3981570E65F0C9FCF8F6E88CFDA8943 /* Foundation.framework */; };
+		57591CD0CA0270913E07C0753BC6E3B5 /* btn_downloadsound_pause_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005D78F3C960E96EBBA34A742B644B56 /* btn_downloadsound_pause_n@3x.png */; };
+		57896A452C361FDE69A7F7F4CB95DBEA /* iconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 768702A98185F44C9A5509A87FB839BB /* iconImage.png */; };
+		5B0AAD2A127D6C265A1B06EB6872FC69 /* find_albumcell_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90390414C5697CE7C54419CAC054FF34 /* find_albumcell_play@2x.png */; };
+		5C6F2F29C64AC0F44035F64E1345C282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3981570E65F0C9FCF8F6E88CFDA8943 /* Foundation.framework */; };
+		5D6AE4C3BEB6E12C2009E04DE3128F81 /* HSDownLoadListenVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A48EC98E261F3710BFA16917D86D11 /* HSDownLoadListenVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6266506E285E40FDEE59F47CB8495D87 /* Sington.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EF2C162FA1846C774FCFB1463BE3A /* Sington.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C20EC01A28BC19741FA82581E1E572 /* pay_downloadfail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782D91D63FA83B47B8339E46F646F09B /* pay_downloadfail@3x.png */; };
+		633A1939F513CCBD3B8003AD676059C1 /* HSDownLoadListenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4173D6F067119D27B229742860655BE6 /* HSDownLoadListenVC.m */; };
+		63E340D82589D4937CEB381B85EAFE1A /* FunkyFMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36F021DB85C5A722E57D79F88DF3A0B /* FunkyFMBase.framework */; };
+		7043B1D0BC37DEBECA3FD792E8E5E28F /* paused@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D981C2E86A83E48B6CFC7C3C9B7E60 /* paused@3x.png */; };
+		71E19F782D88E515EB22A3F5D9CE6217 /* cell_sound_pause_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD23B6C55A1551A3F30E9FA7D917AD7 /* cell_sound_pause_n@3x.png */; };
+		75FA0885E65597BCA317F29641D4BF7B /* UIImage+HSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E198338935E208896575AA458AB7465 /* UIImage+HSImage.m */; };
+		7B61023612DB3B7003545CFD9402B62A /* HSDownLoadBaseTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267DAB98323F4B416FA08102C5E24CA /* HSDownLoadBaseTVC.m */; };
+		7BBBBFA1DDA7FE548E1619FE64BB0276 /* cell_sound_pause_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 623903BA7CB78465256402005A41F021 /* cell_sound_pause_n@2x.png */; };
+		7C8740C7EC8E7C3D4F2BB9C86F702752 /* Pods-FunkyFMDownLoadListen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8EF399619CEA8D960FFD809636E5 /* Pods-FunkyFMDownLoadListen_Example-dummy.m */; };
+		7D0F7BD07A00261366C5D5E150CC7586 /* HSDownLoadBaseTVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DFE387E94A5323F3F0C0E08A766AC4C /* HSDownLoadBaseTVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1C62CA45A78C3B982A2ABE4EFFBC44 /* cell_sound_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33285C9AE453AF47444AB6DE898E1A2 /* cell_sound_disable@2x.png */; };
+		7EE298AAAEE5FAF6D3FDD9079183C9FE /* DownLoadListernAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 31672734CAA598C4D0F2F9576887C450 /* DownLoadListernAPI.m */; };
+		802D4D8E30D752D3798BBC35CC3E22E7 /* NSObject+HSBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B264B7C3BCCA81DC4951A4CB67004B /* NSObject+HSBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80F0F1D005586C139E3151D9CDC960EF /* btn_downloadsound_pause_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64464951F773D1801F3074F5012A23A /* btn_downloadsound_pause_n@2x.png */; };
+		88EBD52F6311DF17983C8B364ED81BAC /* sound_sizes@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F9C095ED09F5000D0337B2388B51A1 /* sound_sizes@3x.png */; };
+		8C294AF228730E0BEA4E1F780773F621 /* Pods-FunkyFMDownLoadListen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB63E899E38B412D5AD2B6EE50399A6 /* Pods-FunkyFMDownLoadListen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C34D72D4A6F486C0815CDC6848EAB32 /* cell_downstop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5562570200D48C1C3B6CE7E3519303F7 /* cell_downstop@2x.png */; };
+		8DE63C56226C8A69B1747FCE57C82FF6 /* cell_download.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C85CBCE72E5762F6A14DE6A88FF393B /* cell_download.png */; };
+		8E804BAC12D0B032DCBE2B5E90EACDDE /* btn_downloadsound_pause_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BF1405BAE3A94B0092E6FC8AD9B28D /* btn_downloadsound_pause_h@2x.png */; };
+		8EEA2F5C3FE6396C8BE4BBB23DB01082 /* sound_downloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D74DDBFE5942977D6662AAAE1120418 /* sound_downloading@2x.png */; };
+		92065E645B304F28837F800223591617 /* Pods-FunkyFMDownLoadListen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9796C49E151E24119288AA2C62010243 /* Pods-FunkyFMDownLoadListen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		924C7FF884EFEE8C6479F9E02DEA4918 /* sound_duration@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B872384F63BE6720D12909E396C7E8A2 /* sound_duration@2x.png */; };
+		960B6A57424260774197B463133A4567 /* FunkyFMDownLoadListen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BD9AC8B3FED952FE36A048235FBB0 /* FunkyFMDownLoadListen-dummy.m */; };
+		98CB12AB5284E392510804C57B3D6CA6 /* UIView+HSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BE6AB82F81C1590C9DF7E71A137BD3 /* UIView+HSLayout.m */; };
+		9A3BEBBEE3C4F4E57D1BC7D32D6FAC82 /* cell_downloaded@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9678B3D75D3A659559411258C55ECE1F /* cell_downloaded@3x.png */; };
+		9DFAB96D0B1A0DECCEC615FD594A25FF /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55088AC304179A46601D52AC8D75E461 /* CALayer+PauseAimate.m */; };
+		9EB86FC0CED1AAAC1154E3BD8A8BBAF8 /* FunkyFMDownLoadListen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF29A252E49A2F8AA17167AE41D02966 /* FunkyFMDownLoadListen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09078F8C36CB799A1116170BF76857C /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B68E235E5B7BE57EBBABB02AA97F64 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1354F8514E0E7F30C9C7D942CBC0211 /* noData_downloading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0497F3BE8B3651D7203879EE605697C /* noData_downloading@3x.png */; };
+		A1FB4AC98352EDAE634C5E05997665F6 /* np_more_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3F1BC66F9CB671AF4620FA438E9AD6 /* np_more_down@2x.png */; };
+		A333A940272C817D00FE6CF748656689 /* newAblum_free_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5D052179A5EDC01452790A338AFF19 /* newAblum_free_download@2x.png */; };
+		A8A9F297D278CDCB54C041FDC30127CA /* noData_downloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1BC72B9444D63BAE9F4A8A9703D919 /* noData_downloading@2x.png */; };
+		AA8739D87E14814BFA19E7277260A3F9 /* sound_sizes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A554B5D6C506C6F65BF9B6572B71712 /* sound_sizes@2x.png */; };
+		B20DD607EB5CB30F2EC43147B891440A /* UIView+HSNib.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB8BB70F0711E26B7532E95AA1741A6 /* UIView+HSNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4092C18A6E42E21376D47E0015FBF0E /* seg_downloaded@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71D1D3E3BD60DD6F5EC1D381C091815 /* seg_downloaded@2x.png */; };
+		B8CD58C548F9B8996FA7CA3A376BCF65 /* cell_sound_play_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9A588DAE3BB0C8C76E3EEE5774ADF /* cell_sound_play_n@2x.png */; };
+		C786B108928DE53590E220F60FFB66FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3981570E65F0C9FCF8F6E88CFDA8943 /* Foundation.framework */; };
+		CBCF484D9F436D8C8A9B6CFCABAA4F8D /* HSNoDownLoadView.xib in Sources */ = {isa = PBXBuildFile; fileRef = BA2B50C6538E9246FA67BE9D6AAA09F4 /* HSNoDownLoadView.xib */; };
+		CEAA5B264B31693DEAA99FB307954B53 /* UIImage+HSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EFD39355EF5B8F55DC443F9424792A /* UIImage+HSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23EFA4ECDB43FD3C47F33F17C89D6E4 /* FunkySegmentBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF38D429EA4F2E50364A3963C1CC34B4 /* FunkySegmentBar.framework */; };
+		D36CF8C716454C57E3E710F53A359A01 /* FunkyFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA76024C2D521DE3664250EC0B6300F9 /* FunkyFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D649AC13E0719F438FFB58EB4C878FE8 /* tab_download_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C200A906782A8251D177A8A119F4E0EF /* tab_download_h@2x.png */; };
+		D77E607EAF187F3937752A21EE0070CE /* np_more_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F1EE5A57AF2BA5BEA254F2A9196ADD /* np_more_down@3x.png */; };
+		DAC38E3F0730960329791BBEBFD37D1C /* Pods-FunkyFMDownLoadListen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55607D039D6F7409ACD88740F4AABA6 /* Pods-FunkyFMDownLoadListen_Tests-dummy.m */; };
+		DB3247A481886C48A3324D50E0C56553 /* NSObject+HSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AAF0266BF2F64CADC2A5F8D76B86E4 /* NSObject+HSBundle.m */; };
+		DF91BA6EDCE5E1C2286B7D0A59368DE6 /* DownLoadListernAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0777582DA1E0CD24B75B8A47F3DC354B /* DownLoadListernAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1498A4857774BC3157555D1CE9B97B4 /* HSAlbumTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 73877C3297D20EC699903E4F87533F9F /* HSAlbumTVC.m */; };
+		E1968D54FE7C4698DA9109D5FFF551A7 /* HSNoDownLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A097603AB998169DB0B0D5EA73ECFD24 /* HSNoDownLoadView.m */; };
+		E4E1B2885F50E078787EBF19491BB97C /* deleteCell_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5EB29B93EEDC9ACBDEAFC69E2D342E /* deleteCell_h@2x.png */; };
+		E55EC125FC7171ABE4A2385D11AAFE3C /* HSVoiceTVC.h in Headers */ = {isa = PBXBuildFile; fileRef = A376BDFD1F0A177B1565C8C83AC54BBA /* HSVoiceTVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E57D9BD635321E984AE12DC6E4C8CEAA /* newAblum_free_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12E3D63C91F2EAD8D11AA244D241B2C /* newAblum_free_download@3x.png */; };
+		E59EEA6C9BC99C8BD2474E59F46493F3 /* find_albumcell_cover_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFF106F9F7F7E2A3BB49861E073B65B /* find_albumcell_cover_bg@2x.png */; };
+		EDEAED350D631CC57B82B999F002A392 /* cell_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653470C570453B7F7D6E5BA0F6023EAC /* cell_download@3x.png */; };
+		EE2DCDB3500A72C281708496C3493A3A /* cell_downstop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F1953ABD18887A7A92761756DAE4A /* cell_downstop@3x.png */; };
+		EFC19946A7672A84FE77D9985A5CA361 /* HSSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D476B3FEF033A94D78C20DBB7FCF83B1 /* HSSegmentBar.m */; };
+		F6F9EC879CFD7B4792282773F6AB5355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3981570E65F0C9FCF8F6E88CFDA8943 /* Foundation.framework */; };
+		F886037FF18B483CD1B024D83E3FFEE1 /* FunkySegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1171F315E702D7EF3B25E34C9EB31 /* FunkySegmentBar-dummy.m */; };
+		FA0C805B150CDBA6EA7B147B987B8762 /* seg_downloaded@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2651FC652E26DDFF6DE88583F83075ED /* seg_downloaded@3x.png */; };
+		FABDFEF669E08A326EE6EFB7BC65A5B5 /* HSDownLoadingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D24E957DD0FA3E824CDB4609CFCD037 /* HSDownLoadingTVC.m */; };
+		FAF6497A4386CE01CBBB25B1B8714668 /* HSSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EC898CE9390BDFC148EC73F5D348525A /* HSSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD32E93A89F36FF2BDE13B009FC97543 /* FunkySegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C06A396306BE055C91B07FBD730BE3EE /* FunkySegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFD453649D67B306CAD468E4FD5FB85 /* HSSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF88C30D4A82835F239FEF290C2FDE8 /* HSSegmentBarConfig.m */; };
+		FF59DD3DF3ED0BAEBB7754D29B755041 /* sound_comments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B51719D01DF6594682A7FCFF4689A2B /* sound_comments@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B4056E0E77581ED01D6CE3B99C4AB60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5515AB8E5CADC265B4D88D0562994C03;
+			remoteInfo = "FunkyFMDownLoadListen-FunkyFMDownLoadListen";
+		};
+		11548B245B938B093432E3589B850A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464A2021BF694D9407117B8E4568DB18;
+			remoteInfo = FunkyFMBase;
+		};
+		78B482E26C32758196F3311183F05978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D04868108CD5ABB3AE98C96C35D835F;
+			remoteInfo = FunkySegmentBar;
+		};
+		A348F76FB1D3A0546A6B58FCF7C9DA03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D04868108CD5ABB3AE98C96C35D835F;
+			remoteInfo = FunkySegmentBar;
+		};
+		D0746478BAE1E717A363ACC3ECA80B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D039587EE975554A709817C58D03F69;
+			remoteInfo = FunkyFMDownLoadListen;
+		};
+		DF9FE156B942B528B0AC4E4B6C09411A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464A2021BF694D9407117B8E4568DB18;
+			remoteInfo = FunkyFMBase;
+		};
+		FFB0466BA72D9585509BCFF643ADAC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464A2021BF694D9407117B8E4568DB18;
+			remoteInfo = FunkyFMBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005D78F3C960E96EBBA34A742B644B56 /* btn_downloadsound_pause_n@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "btn_downloadsound_pause_n@3x.png"; sourceTree = "<group>"; };
+		036991418EA394FF2E52D6262FF1961C /* Pods-FunkyFMDownLoadListen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoadListen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		04CB748F8E6F0E73897862558FD5A5B6 /* Pods-FunkyFMDownLoadListen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoadListen_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		058ECF4EBB506020CE8E023BBBB8314F /* HSAlbumTVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSAlbumTVC.h; sourceTree = "<group>"; };
+		0777582DA1E0CD24B75B8A47F3DC354B /* DownLoadListernAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DownLoadListernAPI.h; sourceTree = "<group>"; };
+		09EFD39355EF5B8F55DC443F9424792A /* UIImage+HSImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HSImage.h"; path = "FunkyFMBase/Classes/Category/UIImage+HSImage.h"; sourceTree = "<group>"; };
+		0A554B5D6C506C6F65BF9B6572B71712 /* sound_sizes@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_sizes@2x.png"; sourceTree = "<group>"; };
+		0AE9A588DAE3BB0C8C76E3EEE5774ADF /* cell_sound_play_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_sound_play_n@2x.png"; sourceTree = "<group>"; };
+		0D24E957DD0FA3E824CDB4609CFCD037 /* HSDownLoadingTVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoadingTVC.m; sourceTree = "<group>"; };
+		0DFE387E94A5323F3F0C0E08A766AC4C /* HSDownLoadBaseTVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoadBaseTVC.h; sourceTree = "<group>"; };
+		0E806D02F3BF2AC2BD5020D4B3C15B25 /* Pods_FunkyFMDownLoadListen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMDownLoadListen_Example.framework; path = "Pods-FunkyFMDownLoadListen_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5D052179A5EDC01452790A338AFF19 /* newAblum_free_download@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "newAblum_free_download@2x.png"; sourceTree = "<group>"; };
+		102BC5FC24BD0B1702E742B74735F12D /* Pods_FunkyFMDownLoadListen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMDownLoadListen_Tests.framework; path = "Pods-FunkyFMDownLoadListen_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105BEB47DFBC586908DB16ADAD64D0F1 /* FunkyFMDownLoadListen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkyFMDownLoadListen.modulemap; sourceTree = "<group>"; };
+		10A89945A620A5477CD51247E4451FAC /* Pods-FunkyFMDownLoadListen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyFMDownLoadListen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14D981C2E86A83E48B6CFC7C3C9B7E60 /* paused@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paused@3x.png"; sourceTree = "<group>"; };
+		193BD9AC8B3FED952FE36A048235FBB0 /* FunkyFMDownLoadListen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkyFMDownLoadListen-dummy.m"; sourceTree = "<group>"; };
+		1B1BC72B9444D63BAE9F4A8A9703D919 /* noData_downloading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "noData_downloading@2x.png"; sourceTree = "<group>"; };
+		1D96A3781D3D2193CC626F010AED5F41 /* FunkyFMDownLoadListen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkyFMDownLoadListen.xcconfig; sourceTree = "<group>"; };
+		1FB0E36205DA79548877A872EA766E1F /* btn_downloadsound_pause_h@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "btn_downloadsound_pause_h@3x.png"; sourceTree = "<group>"; };
+		2141E88ED980D08B406ACB55A85D6D6C /* cell_sound_play_n@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_sound_play_n@3x.png"; sourceTree = "<group>"; };
+		2267DAB98323F4B416FA08102C5E24CA /* HSDownLoadBaseTVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoadBaseTVC.m; sourceTree = "<group>"; };
+		2651FC652E26DDFF6DE88583F83075ED /* seg_downloaded@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "seg_downloaded@3x.png"; sourceTree = "<group>"; };
+		292DAE60C376FA0E7ED63C20B5CB651B /* Pods-FunkyFMDownLoadListen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoadListen_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A4F1953ABD18887A7A92761756DAE4A /* cell_downstop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_downstop@3x.png"; sourceTree = "<group>"; };
+		2C1F80319822776B37EE8CF063A1B19E /* FunkyFMDownLoadListen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMDownLoadListen-prefix.pch"; sourceTree = "<group>"; };
+		2C85CBCE72E5762F6A14DE6A88FF393B /* cell_download.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cell_download.png; sourceTree = "<group>"; };
+		2CBF96068474BA84CEF71D0CF7356959 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD23B6C55A1551A3F30E9FA7D917AD7 /* cell_sound_pause_n@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_sound_pause_n@3x.png"; sourceTree = "<group>"; };
+		2E5EB29B93EEDC9ACBDEAFC69E2D342E /* deleteCell_h@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "deleteCell_h@2x.png"; sourceTree = "<group>"; };
+		311CFAA938FB6EC11DC0EFE48E072E7A /* HSSementBarVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSSementBarVC.h; path = FunkySegmentBar/Classes/HSSementBarVC.h; sourceTree = "<group>"; };
+		31672734CAA598C4D0F2F9576887C450 /* DownLoadListernAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DownLoadListernAPI.m; sourceTree = "<group>"; };
+		34E1171F315E702D7EF3B25E34C9EB31 /* FunkySegmentBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkySegmentBar-dummy.m"; sourceTree = "<group>"; };
+		375DECE40EE989447DEB8A435CC6ECDF /* Pods-FunkyFMDownLoadListen_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoadListen_Tests-resources.sh"; sourceTree = "<group>"; };
+		39B68E235E5B7BE57EBBABB02AA97F64 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "FunkyFMBase/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		3A574C04E99D025051EF1EC870784931 /* deleteCell_h@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "deleteCell_h@3x.png"; sourceTree = "<group>"; };
+		3D8032865035150537A7FA2FBF6F8D61 /* FunkyFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyFMBase.framework; path = FunkyFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4173D6F067119D27B229742860655BE6 /* HSDownLoadListenVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoadListenVC.m; sourceTree = "<group>"; };
+		418B3393D1212107B64FE12FC607DF17 /* cell_downloaded@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_downloaded@2x.png"; sourceTree = "<group>"; };
+		4299A43D255E0CE7658194026089B38D /* Base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base.h; path = FunkyFMBase/Classes/Base/Base.h; sourceTree = "<group>"; };
+		48E93F82A4F36494B800CFFD366AAC5C /* tab_download_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tab_download_n@2x.png"; sourceTree = "<group>"; };
+		4BFD5FC6B7C87594F4B543829BEAD32E /* UIView+HSNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HSNib.m"; path = "FunkyFMBase/Classes/Category/UIView+HSNib.m"; sourceTree = "<group>"; };
+		4DD0C9CE7630FCB802677DB23D59957F /* UIView+HSLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HSLayout.h"; path = "FunkyFMBase/Classes/Category/UIView+HSLayout.h"; sourceTree = "<group>"; };
+		50B264B7C3BCCA81DC4951A4CB67004B /* NSObject+HSBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HSBundle.h"; path = "FunkyFMBase/Classes/Category/NSObject+HSBundle.h"; sourceTree = "<group>"; };
+		51A71828A0E5ED18A90972396B89DF72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A95DFC422D08D056F4145FF570D5D5 /* cell_download_loading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_download_loading@2x.png"; sourceTree = "<group>"; };
+		55088AC304179A46601D52AC8D75E461 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "FunkyFMBase/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		5562570200D48C1C3B6CE7E3519303F7 /* cell_downstop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_downstop@2x.png"; sourceTree = "<group>"; };
+		5CDF8EF399619CEA8D960FFD809636E5 /* Pods-FunkyFMDownLoadListen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyFMDownLoadListen_Example-dummy.m"; sourceTree = "<group>"; };
+		5D05C22C41257FA8954B4783DB8F413B /* sound_comments@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_comments@2x.png"; sourceTree = "<group>"; };
+		5E3A8800AE23B46FA765EE2ED52175A5 /* HSDownLoadingTVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoadingTVC.h; sourceTree = "<group>"; };
+		5FF88C30D4A82835F239FEF290C2FDE8 /* HSSegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSSegmentBarConfig.m; path = FunkySegmentBar/Classes/HSSegmentBarConfig.m; sourceTree = "<group>"; };
+		623903BA7CB78465256402005A41F021 /* cell_sound_pause_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_sound_pause_n@2x.png"; sourceTree = "<group>"; };
+		653470C570453B7F7D6E5BA0F6023EAC /* cell_download@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_download@3x.png"; sourceTree = "<group>"; };
+		66F09907CDE2DD22C2CD92DED6B39EC5 /* FunkySegmentBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkySegmentBar.framework; path = FunkySegmentBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BF1405BAE3A94B0092E6FC8AD9B28D /* btn_downloadsound_pause_h@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "btn_downloadsound_pause_h@2x.png"; sourceTree = "<group>"; };
+		6A0C9E2FDB59F154E3B29DE1E7AEDE9E /* Pods-FunkyFMDownLoadListen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyFMDownLoadListen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B6C9E5FD12B20D1F17712FE51C80A2B /* FunkySegmentBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkySegmentBar-prefix.pch"; sourceTree = "<group>"; };
+		7159E6DCA908CE3E8E1FAD7F95E3A52B /* album_tracks@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "album_tracks@3x.png"; sourceTree = "<group>"; };
+		72DF617FE4FB457FAE317E07966EAE39 /* FunkyFMDownLoadListen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunkyFMDownLoadListen.bundle; path = FunkyFMDownLoadListen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7334C4A831809D11E4E01C2303451193 /* paused@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paused@2x.png"; sourceTree = "<group>"; };
+		73877C3297D20EC699903E4F87533F9F /* HSAlbumTVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSAlbumTVC.m; sourceTree = "<group>"; };
+		7509153226ACF987EA413CEFA31C14CB /* Pods-FunkyFMDownLoadListen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyFMDownLoadListen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		768702A98185F44C9A5509A87FB839BB /* iconImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = iconImage.png; sourceTree = "<group>"; };
+		782D91D63FA83B47B8339E46F646F09B /* pay_downloadfail@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pay_downloadfail@3x.png"; sourceTree = "<group>"; };
+		7AC6D914F5D55C52954C3645884ACDFE /* FunkyFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkyFMBase.xcconfig; sourceTree = "<group>"; };
+		7E7F7243EA90608D37EABC18795C9D9C /* pay_downloadfail@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pay_downloadfail@2x.png"; sourceTree = "<group>"; };
+		816D83636B1E18494F6978928983C43E /* noData_download.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = noData_download.png; sourceTree = "<group>"; };
+		832EF2C162FA1846C774FCFB1463BE3A /* Sington.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sington.h; path = FunkyFMBase/Classes/Base/Sington.h; sourceTree = "<group>"; };
+		85CF4AF34DB5AC75E725B65FD85904F8 /* Pods-FunkyFMDownLoadListen_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoadListen_Example-frameworks.sh"; sourceTree = "<group>"; };
+		885317E91801FDCEE530C1467D98AF8C /* Pods-FunkyFMDownLoadListen_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoadListen_Example-resources.sh"; sourceTree = "<group>"; };
+		8B51719D01DF6594682A7FCFF4689A2B /* sound_comments@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_comments@3x.png"; sourceTree = "<group>"; };
+		8DA48D6E184DACA64E4321BA44BFA0C5 /* cell_sound_disable@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_sound_disable@3x.png"; sourceTree = "<group>"; };
+		8E198338935E208896575AA458AB7465 /* UIImage+HSImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HSImage.m"; path = "FunkyFMBase/Classes/Category/UIImage+HSImage.m"; sourceTree = "<group>"; };
+		90390414C5697CE7C54419CAC054FF34 /* find_albumcell_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "find_albumcell_play@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9678B3D75D3A659559411258C55ECE1F /* cell_downloaded@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_downloaded@3x.png"; sourceTree = "<group>"; };
+		9796C49E151E24119288AA2C62010243 /* Pods-FunkyFMDownLoadListen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyFMDownLoadListen_Example-umbrella.h"; sourceTree = "<group>"; };
+		99998972FB52127B8BAFA2A9E07B5FC9 /* FunkyFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMBase-prefix.pch"; sourceTree = "<group>"; };
+		9D74DDBFE5942977D6662AAAE1120418 /* sound_downloading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_downloading@2x.png"; sourceTree = "<group>"; };
+		A097603AB998169DB0B0D5EA73ECFD24 /* HSNoDownLoadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSNoDownLoadView.m; sourceTree = "<group>"; };
+		A0B1EAFED23DFA707A313380C925C894 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A359EB53DDB2B044752162E3B0732E61 /* FunkySegmentBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkySegmentBar.modulemap; sourceTree = "<group>"; };
+		A376BDFD1F0A177B1565C8C83AC54BBA /* HSVoiceTVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSVoiceTVC.h; sourceTree = "<group>"; };
+		A3F1EE5A57AF2BA5BEA254F2A9196ADD /* np_more_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "np_more_down@3x.png"; sourceTree = "<group>"; };
+		A445EA876981B4B0924C25CBE06A91D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71D1D3E3BD60DD6F5EC1D381C091815 /* seg_downloaded@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "seg_downloaded@2x.png"; sourceTree = "<group>"; };
+		B0497F3BE8B3651D7203879EE605697C /* noData_downloading@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "noData_downloading@3x.png"; sourceTree = "<group>"; };
+		B12E3D63C91F2EAD8D11AA244D241B2C /* newAblum_free_download@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "newAblum_free_download@3x.png"; sourceTree = "<group>"; };
+		B3AAF0266BF2F64CADC2A5F8D76B86E4 /* NSObject+HSBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HSBundle.m"; path = "FunkyFMBase/Classes/Category/NSObject+HSBundle.m"; sourceTree = "<group>"; };
+		B55607D039D6F7409ACD88740F4AABA6 /* Pods-FunkyFMDownLoadListen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyFMDownLoadListen_Tests-dummy.m"; sourceTree = "<group>"; };
+		B64464951F773D1801F3074F5012A23A /* btn_downloadsound_pause_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "btn_downloadsound_pause_n@2x.png"; sourceTree = "<group>"; };
+		B80C8A5B59FFF228F5813E87FF4E013F /* HSVoiceTVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSVoiceTVC.m; sourceTree = "<group>"; };
+		B872384F63BE6720D12909E396C7E8A2 /* sound_duration@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_duration@2x.png"; sourceTree = "<group>"; };
+		BA2B50C6538E9246FA67BE9D6AAA09F4 /* HSNoDownLoadView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HSNoDownLoadView.xib; sourceTree = "<group>"; };
+		BA76024C2D521DE3664250EC0B6300F9 /* FunkyFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMBase-umbrella.h"; sourceTree = "<group>"; };
+		BB2CA2DE11F87BA8813F642DD5E7B5BD /* FunkySegmentBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkySegmentBar.xcconfig; sourceTree = "<group>"; };
+		BEB63E899E38B412D5AD2B6EE50399A6 /* Pods-FunkyFMDownLoadListen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyFMDownLoadListen_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C06A396306BE055C91B07FBD730BE3EE /* FunkySegmentBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkySegmentBar-umbrella.h"; sourceTree = "<group>"; };
+		C18B80B0603BB08ED48563FA74069D99 /* cell_download_loading@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_download_loading@3x.png"; sourceTree = "<group>"; };
+		C200A906782A8251D177A8A119F4E0EF /* tab_download_h@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tab_download_h@2x.png"; sourceTree = "<group>"; };
+		C29F3180673FB926848E054F3F6A0953 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C329D88204CD5ED2F9B6895C4CBE24C0 /* Pods-FunkyFMDownLoadListen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyFMDownLoadListen_Tests.modulemap"; sourceTree = "<group>"; };
+		C36F021DB85C5A722E57D79F88DF3A0B /* FunkyFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunkyFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CFBA82E735E80B61F545F7C39E6768 /* Pods-FunkyFMDownLoadListen_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoadListen_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CAFF106F9F7F7E2A3BB49861E073B65B /* find_albumcell_cover_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "find_albumcell_cover_bg@2x.png"; sourceTree = "<group>"; };
+		CC928CC64679EAB57403285CB783F23C /* HSSegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSSegmentBarConfig.h; path = FunkySegmentBar/Classes/HSSegmentBarConfig.h; sourceTree = "<group>"; };
+		CC97A5A49725AD16D45B4E31E91CAD37 /* sound_duration@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_duration@3x.png"; sourceTree = "<group>"; };
+		CE4D035ED3FE63397429D8B048830A71 /* Pods-FunkyFMDownLoadListen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoadListen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF15B02B13560865B6B9125C971F6D54 /* Pods-FunkyFMDownLoadListen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyFMDownLoadListen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3981570E65F0C9FCF8F6E88CFDA8943 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D476B3FEF033A94D78C20DBB7FCF83B1 /* HSSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSSegmentBar.m; path = FunkySegmentBar/Classes/HSSegmentBar.m; sourceTree = "<group>"; };
+		D5BE6AB82F81C1590C9DF7E71A137BD3 /* UIView+HSLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HSLayout.m"; path = "FunkyFMBase/Classes/Category/UIView+HSLayout.m"; sourceTree = "<group>"; };
+		D711A83C256025A8D7C563AACDA39202 /* HSNoDownLoadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSNoDownLoadView.h; sourceTree = "<group>"; };
+		D7A48EC98E261F3710BFA16917D86D11 /* HSDownLoadListenVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoadListenVC.h; sourceTree = "<group>"; };
+		D83A5434CA89570784BF81C6A6F223F3 /* sound_progress_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_progress_n@2x.png"; sourceTree = "<group>"; };
+		DAEE541B91486A35E3B7F3A429804C9C /* FunkyFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkyFMBase-dummy.m"; sourceTree = "<group>"; };
+		DD4747BEA5D5B00C927EC0710617BF1D /* ResourceBundle-FunkyFMDownLoadListen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FunkyFMDownLoadListen-Info.plist"; sourceTree = "<group>"; };
+		DD4F366EEC6DF30FAB4E80A08AF1628A /* HSSementBarVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSSementBarVC.m; path = FunkySegmentBar/Classes/HSSementBarVC.m; sourceTree = "<group>"; };
+		DEB8BB70F0711E26B7532E95AA1741A6 /* UIView+HSNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HSNib.h"; path = "FunkyFMBase/Classes/Category/UIView+HSNib.h"; sourceTree = "<group>"; };
+		DF38D429EA4F2E50364A3963C1CC34B4 /* FunkySegmentBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunkySegmentBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EC0B08169CD8B3BFEFD4401B503F71 /* album_tracks@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "album_tracks@2x.png"; sourceTree = "<group>"; };
+		E33285C9AE453AF47444AB6DE898E1A2 /* cell_sound_disable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cell_sound_disable@2x.png"; sourceTree = "<group>"; };
+		E8C87553E9525D4A7370FA760A05C05B /* sound_progress_h@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_progress_h@2x.png"; sourceTree = "<group>"; };
+		E8C9FB5E038C0151792F48F20EDAD22B /* FunkyFMDownLoadListen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyFMDownLoadListen.framework; path = FunkyFMDownLoadListen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F9C095ED09F5000D0337B2388B51A1 /* sound_sizes@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sound_sizes@3x.png"; sourceTree = "<group>"; };
+		EC898CE9390BDFC148EC73F5D348525A /* HSSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSSegmentBar.h; path = FunkySegmentBar/Classes/HSSegmentBar.h; sourceTree = "<group>"; };
+		EF3F1BC66F9CB671AF4620FA438E9AD6 /* np_more_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "np_more_down@2x.png"; sourceTree = "<group>"; };
+		F6158646608F9E44570E509CC51BAAA0 /* FunkyFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkyFMBase.modulemap; sourceTree = "<group>"; };
+		FF29A252E49A2F8AA17167AE41D02966 /* FunkyFMDownLoadListen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMDownLoadListen-umbrella.h"; sourceTree = "<group>"; };
+		FF7BB5A0E944D5BD69CC1592F3DE3A92 /* Pods-FunkyFMDownLoadListen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyFMDownLoadListen_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44749E68EC0AA9B04BC63DC09F5AD6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C75622E0EA9E4A9D7CD6721B176C6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DB9CD93E51DF6150773732102AEA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C786B108928DE53590E220F60FFB66FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9FE2F86E7EDFD671042A3F6F7D370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F2F29C64AC0F44035F64E1345C282 /* Foundation.framework in Frameworks */,
+				63E340D82589D4937CEB381B85EAFE1A /* FunkyFMBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864BC44D6790C9E4E88A65AB3326033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE3021F700C69121F08A84C9CFFD400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F9EC879CFD7B4792282773F6AB5355 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86E1E7FBE469683DFCABF16CCC90901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2484986C2B7769FBA9D9AC89EB419825 /* Foundation.framework in Frameworks */,
+				2F87AA3EC5F6DC5F60D1E74811EF7C50 /* FunkyFMBase.framework in Frameworks */,
+				D23EFA4ECDB43FD3C47F33F17C89D6E4 /* FunkySegmentBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BAA3280C7A774C842C645164D85B1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8032865035150537A7FA2FBF6F8D61 /* FunkyFMBase.framework */,
+				72DF617FE4FB457FAE317E07966EAE39 /* FunkyFMDownLoadListen.bundle */,
+				E8C9FB5E038C0151792F48F20EDAD22B /* FunkyFMDownLoadListen.framework */,
+				66F09907CDE2DD22C2CD92DED6B39EC5 /* FunkySegmentBar.framework */,
+				0E806D02F3BF2AC2BD5020D4B3C15B25 /* Pods_FunkyFMDownLoadListen_Example.framework */,
+				102BC5FC24BD0B1702E742B74735F12D /* Pods_FunkyFMDownLoadListen_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C28D35C97DAD43563C368ED45218795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6158646608F9E44570E509CC51BAAA0 /* FunkyFMBase.modulemap */,
+				7AC6D914F5D55C52954C3645884ACDFE /* FunkyFMBase.xcconfig */,
+				DAEE541B91486A35E3B7F3A429804C9C /* FunkyFMBase-dummy.m */,
+				99998972FB52127B8BAFA2A9E07B5FC9 /* FunkyFMBase-prefix.pch */,
+				BA76024C2D521DE3664250EC0B6300F9 /* FunkyFMBase-umbrella.h */,
+				2CBF96068474BA84CEF71D0CF7356959 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FunkyFMBase";
+			sourceTree = "<group>";
+		};
+		1A3CC4B91A4E87C8F5DB37785C5C69DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				058ECF4EBB506020CE8E023BBBB8314F /* HSAlbumTVC.h */,
+				73877C3297D20EC699903E4F87533F9F /* HSAlbumTVC.m */,
+				0DFE387E94A5323F3F0C0E08A766AC4C /* HSDownLoadBaseTVC.h */,
+				2267DAB98323F4B416FA08102C5E24CA /* HSDownLoadBaseTVC.m */,
+				5E3A8800AE23B46FA765EE2ED52175A5 /* HSDownLoadingTVC.h */,
+				0D24E957DD0FA3E824CDB4609CFCD037 /* HSDownLoadingTVC.m */,
+				D7A48EC98E261F3710BFA16917D86D11 /* HSDownLoadListenVC.h */,
+				4173D6F067119D27B229742860655BE6 /* HSDownLoadListenVC.m */,
+				A376BDFD1F0A177B1565C8C83AC54BBA /* HSVoiceTVC.h */,
+				B80C8A5B59FFF228F5813E87FF4E013F /* HSVoiceTVC.m */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		207281379AADF1FA3E5678528CCB0709 /* FunkyFMDownLoadListen */ = {
+			isa = PBXGroup;
+			children = (
+				F6FBF1183EC5FD42C94326D83914A372 /* FunkyFMDownLoadListen */,
+				E0CB0624CB83B00A1F93406E2AFAAC24 /* Resources */,
+				22AC81898A0B9A5A46D1645B97B76237 /* Support Files */,
+			);
+			name = FunkyFMDownLoadListen;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22AC81898A0B9A5A46D1645B97B76237 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				105BEB47DFBC586908DB16ADAD64D0F1 /* FunkyFMDownLoadListen.modulemap */,
+				1D96A3781D3D2193CC626F010AED5F41 /* FunkyFMDownLoadListen.xcconfig */,
+				193BD9AC8B3FED952FE36A048235FBB0 /* FunkyFMDownLoadListen-dummy.m */,
+				2C1F80319822776B37EE8CF063A1B19E /* FunkyFMDownLoadListen-prefix.pch */,
+				FF29A252E49A2F8AA17167AE41D02966 /* FunkyFMDownLoadListen-umbrella.h */,
+				A0B1EAFED23DFA707A313380C925C894 /* Info.plist */,
+				DD4747BEA5D5B00C927EC0710617BF1D /* ResourceBundle-FunkyFMDownLoadListen-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FunkyFMDownLoadListen";
+			sourceTree = "<group>";
+		};
+		23341C768F67825DB28AB9E54AD96842 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A976CC075EC326BE8A7C2905DBA07D2 /* Pods-FunkyFMDownLoadListen_Example */,
+				A960ED4C8628A341D22CE29EE58C226A /* Pods-FunkyFMDownLoadListen_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D5F8636EA333512B892ADABCABA2E8D /* FunkyFMDownLoadListen */ = {
+			isa = PBXGroup;
+			children = (
+				90C294E8B95D298DCFFC3AB6728A58DD /* Assets */,
+			);
+			name = FunkyFMDownLoadListen;
+			path = FunkyFMDownLoadListen;
+			sourceTree = "<group>";
+		};
+		561188A097F3A02F70924DF3B8650B0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D87F1D3A815D4811559AF255A4226FC2 /* FunkyFMBase */,
+				7814823AA43DF2D89CBF0A0A4C63C1A8 /* FunkySegmentBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A976CC075EC326BE8A7C2905DBA07D2 /* Pods-FunkyFMDownLoadListen_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A445EA876981B4B0924C25CBE06A91D4 /* Info.plist */,
+				FF7BB5A0E944D5BD69CC1592F3DE3A92 /* Pods-FunkyFMDownLoadListen_Example.modulemap */,
+				7509153226ACF987EA413CEFA31C14CB /* Pods-FunkyFMDownLoadListen_Example-acknowledgements.markdown */,
+				CF15B02B13560865B6B9125C971F6D54 /* Pods-FunkyFMDownLoadListen_Example-acknowledgements.plist */,
+				5CDF8EF399619CEA8D960FFD809636E5 /* Pods-FunkyFMDownLoadListen_Example-dummy.m */,
+				85CF4AF34DB5AC75E725B65FD85904F8 /* Pods-FunkyFMDownLoadListen_Example-frameworks.sh */,
+				885317E91801FDCEE530C1467D98AF8C /* Pods-FunkyFMDownLoadListen_Example-resources.sh */,
+				9796C49E151E24119288AA2C62010243 /* Pods-FunkyFMDownLoadListen_Example-umbrella.h */,
+				04CB748F8E6F0E73897862558FD5A5B6 /* Pods-FunkyFMDownLoadListen_Example.debug.xcconfig */,
+				036991418EA394FF2E52D6262FF1961C /* Pods-FunkyFMDownLoadListen_Example.release.xcconfig */,
+			);
+			name = "Pods-FunkyFMDownLoadListen_Example";
+			path = "Target Support Files/Pods-FunkyFMDownLoadListen_Example";
+			sourceTree = "<group>";
+		};
+		5E0F88909FF61EDBA63DE2B408476815 /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0777582DA1E0CD24B75B8A47F3DC354B /* DownLoadListernAPI.h */,
+				31672734CAA598C4D0F2F9576887C450 /* DownLoadListernAPI.m */,
+			);
+			name = PublicAPI;
+			path = PublicAPI;
+			sourceTree = "<group>";
+		};
+		60779C442E7D042862ED1D5A9F48D536 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A3CC4B91A4E87C8F5DB37785C5C69DE /* Controller */,
+				5E0F88909FF61EDBA63DE2B408476815 /* PublicAPI */,
+				88A9FC86D7A1677FC6D374E81B53412A /* View */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6BABE9913848379D33B3F1A9EF24F752 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A359EB53DDB2B044752162E3B0732E61 /* FunkySegmentBar.modulemap */,
+				BB2CA2DE11F87BA8813F642DD5E7B5BD /* FunkySegmentBar.xcconfig */,
+				34E1171F315E702D7EF3B25E34C9EB31 /* FunkySegmentBar-dummy.m */,
+				6B6C9E5FD12B20D1F17712FE51C80A2B /* FunkySegmentBar-prefix.pch */,
+				C06A396306BE055C91B07FBD730BE3EE /* FunkySegmentBar-umbrella.h */,
+				C29F3180673FB926848E054F3F6A0953 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FunkySegmentBar";
+			sourceTree = "<group>";
+		};
+		73D9A3F10A65B75C1A2D5D9B03FC31C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				207281379AADF1FA3E5678528CCB0709 /* FunkyFMDownLoadListen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7814823AA43DF2D89CBF0A0A4C63C1A8 /* FunkySegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				EC898CE9390BDFC148EC73F5D348525A /* HSSegmentBar.h */,
+				D476B3FEF033A94D78C20DBB7FCF83B1 /* HSSegmentBar.m */,
+				CC928CC64679EAB57403285CB783F23C /* HSSegmentBarConfig.h */,
+				5FF88C30D4A82835F239FEF290C2FDE8 /* HSSegmentBarConfig.m */,
+				311CFAA938FB6EC11DC0EFE48E072E7A /* HSSementBarVC.h */,
+				DD4F366EEC6DF30FAB4E80A08AF1628A /* HSSementBarVC.m */,
+				6BABE9913848379D33B3F1A9EF24F752 /* Support Files */,
+			);
+			name = FunkySegmentBar;
+			path = FunkySegmentBar;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				73D9A3F10A65B75C1A2D5D9B03FC31C2 /* Development Pods */,
+				90A2D51818DA08EBB7AB37A38473DE7C /* Frameworks */,
+				561188A097F3A02F70924DF3B8650B0E /* Pods */,
+				0BAA3280C7A774C842C645164D85B1EB /* Products */,
+				23341C768F67825DB28AB9E54AD96842 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84FF3BC1442C4A409A41205E7BCAE0FC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3981570E65F0C9FCF8F6E88CFDA8943 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		88A9FC86D7A1677FC6D374E81B53412A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D711A83C256025A8D7C563AACDA39202 /* HSNoDownLoadView.h */,
+				A097603AB998169DB0B0D5EA73ECFD24 /* HSNoDownLoadView.m */,
+				BA2B50C6538E9246FA67BE9D6AAA09F4 /* HSNoDownLoadView.xib */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		90A2D51818DA08EBB7AB37A38473DE7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C36F021DB85C5A722E57D79F88DF3A0B /* FunkyFMBase.framework */,
+				DF38D429EA4F2E50364A3963C1CC34B4 /* FunkySegmentBar.framework */,
+				84FF3BC1442C4A409A41205E7BCAE0FC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C294E8B95D298DCFFC3AB6728A58DD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC0B08169CD8B3BFEFD4401B503F71 /* album_tracks@2x.png */,
+				7159E6DCA908CE3E8E1FAD7F95E3A52B /* album_tracks@3x.png */,
+				67BF1405BAE3A94B0092E6FC8AD9B28D /* btn_downloadsound_pause_h@2x.png */,
+				1FB0E36205DA79548877A872EA766E1F /* btn_downloadsound_pause_h@3x.png */,
+				B64464951F773D1801F3074F5012A23A /* btn_downloadsound_pause_n@2x.png */,
+				005D78F3C960E96EBBA34A742B644B56 /* btn_downloadsound_pause_n@3x.png */,
+				2C85CBCE72E5762F6A14DE6A88FF393B /* cell_download.png */,
+				653470C570453B7F7D6E5BA0F6023EAC /* cell_download@3x.png */,
+				52A95DFC422D08D056F4145FF570D5D5 /* cell_download_loading@2x.png */,
+				C18B80B0603BB08ED48563FA74069D99 /* cell_download_loading@3x.png */,
+				418B3393D1212107B64FE12FC607DF17 /* cell_downloaded@2x.png */,
+				9678B3D75D3A659559411258C55ECE1F /* cell_downloaded@3x.png */,
+				5562570200D48C1C3B6CE7E3519303F7 /* cell_downstop@2x.png */,
+				2A4F1953ABD18887A7A92761756DAE4A /* cell_downstop@3x.png */,
+				E33285C9AE453AF47444AB6DE898E1A2 /* cell_sound_disable@2x.png */,
+				8DA48D6E184DACA64E4321BA44BFA0C5 /* cell_sound_disable@3x.png */,
+				623903BA7CB78465256402005A41F021 /* cell_sound_pause_n@2x.png */,
+				2CD23B6C55A1551A3F30E9FA7D917AD7 /* cell_sound_pause_n@3x.png */,
+				0AE9A588DAE3BB0C8C76E3EEE5774ADF /* cell_sound_play_n@2x.png */,
+				2141E88ED980D08B406ACB55A85D6D6C /* cell_sound_play_n@3x.png */,
+				2E5EB29B93EEDC9ACBDEAFC69E2D342E /* deleteCell_h@2x.png */,
+				3A574C04E99D025051EF1EC870784931 /* deleteCell_h@3x.png */,
+				CAFF106F9F7F7E2A3BB49861E073B65B /* find_albumcell_cover_bg@2x.png */,
+				90390414C5697CE7C54419CAC054FF34 /* find_albumcell_play@2x.png */,
+				768702A98185F44C9A5509A87FB839BB /* iconImage.png */,
+				0F5D052179A5EDC01452790A338AFF19 /* newAblum_free_download@2x.png */,
+				B12E3D63C91F2EAD8D11AA244D241B2C /* newAblum_free_download@3x.png */,
+				816D83636B1E18494F6978928983C43E /* noData_download.png */,
+				1B1BC72B9444D63BAE9F4A8A9703D919 /* noData_downloading@2x.png */,
+				B0497F3BE8B3651D7203879EE605697C /* noData_downloading@3x.png */,
+				EF3F1BC66F9CB671AF4620FA438E9AD6 /* np_more_down@2x.png */,
+				A3F1EE5A57AF2BA5BEA254F2A9196ADD /* np_more_down@3x.png */,
+				7334C4A831809D11E4E01C2303451193 /* paused@2x.png */,
+				14D981C2E86A83E48B6CFC7C3C9B7E60 /* paused@3x.png */,
+				7E7F7243EA90608D37EABC18795C9D9C /* pay_downloadfail@2x.png */,
+				782D91D63FA83B47B8339E46F646F09B /* pay_downloadfail@3x.png */,
+				A71D1D3E3BD60DD6F5EC1D381C091815 /* seg_downloaded@2x.png */,
+				2651FC652E26DDFF6DE88583F83075ED /* seg_downloaded@3x.png */,
+				5D05C22C41257FA8954B4783DB8F413B /* sound_comments@2x.png */,
+				8B51719D01DF6594682A7FCFF4689A2B /* sound_comments@3x.png */,
+				9D74DDBFE5942977D6662AAAE1120418 /* sound_downloading@2x.png */,
+				B872384F63BE6720D12909E396C7E8A2 /* sound_duration@2x.png */,
+				CC97A5A49725AD16D45B4E31E91CAD37 /* sound_duration@3x.png */,
+				E8C87553E9525D4A7370FA760A05C05B /* sound_progress_h@2x.png */,
+				D83A5434CA89570784BF81C6A6F223F3 /* sound_progress_n@2x.png */,
+				0A554B5D6C506C6F65BF9B6572B71712 /* sound_sizes@2x.png */,
+				E9F9C095ED09F5000D0337B2388B51A1 /* sound_sizes@3x.png */,
+				C200A906782A8251D177A8A119F4E0EF /* tab_download_h@2x.png */,
+				48E93F82A4F36494B800CFFD366AAC5C /* tab_download_n@2x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A960ED4C8628A341D22CE29EE58C226A /* Pods-FunkyFMDownLoadListen_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51A71828A0E5ED18A90972396B89DF72 /* Info.plist */,
+				C329D88204CD5ED2F9B6895C4CBE24C0 /* Pods-FunkyFMDownLoadListen_Tests.modulemap */,
+				10A89945A620A5477CD51247E4451FAC /* Pods-FunkyFMDownLoadListen_Tests-acknowledgements.markdown */,
+				6A0C9E2FDB59F154E3B29DE1E7AEDE9E /* Pods-FunkyFMDownLoadListen_Tests-acknowledgements.plist */,
+				B55607D039D6F7409ACD88740F4AABA6 /* Pods-FunkyFMDownLoadListen_Tests-dummy.m */,
+				C8CFBA82E735E80B61F545F7C39E6768 /* Pods-FunkyFMDownLoadListen_Tests-frameworks.sh */,
+				375DECE40EE989447DEB8A435CC6ECDF /* Pods-FunkyFMDownLoadListen_Tests-resources.sh */,
+				BEB63E899E38B412D5AD2B6EE50399A6 /* Pods-FunkyFMDownLoadListen_Tests-umbrella.h */,
+				CE4D035ED3FE63397429D8B048830A71 /* Pods-FunkyFMDownLoadListen_Tests.debug.xcconfig */,
+				292DAE60C376FA0E7ED63C20B5CB651B /* Pods-FunkyFMDownLoadListen_Tests.release.xcconfig */,
+			);
+			name = "Pods-FunkyFMDownLoadListen_Tests";
+			path = "Target Support Files/Pods-FunkyFMDownLoadListen_Tests";
+			sourceTree = "<group>";
+		};
+		AE9195AFC771A2B706176EA5BD0B6104 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4299A43D255E0CE7658194026089B38D /* Base.h */,
+				832EF2C162FA1846C774FCFB1463BE3A /* Sington.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D87F1D3A815D4811559AF255A4226FC2 /* FunkyFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				AE9195AFC771A2B706176EA5BD0B6104 /* Base */,
+				E447B58A64D18680DA90347316737DB3 /* Category */,
+				0C28D35C97DAD43563C368ED45218795 /* Support Files */,
+			);
+			name = FunkyFMBase;
+			path = FunkyFMBase;
+			sourceTree = "<group>";
+		};
+		E0CB0624CB83B00A1F93406E2AFAAC24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8636EA333512B892ADABCABA2E8D /* FunkyFMDownLoadListen */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E447B58A64D18680DA90347316737DB3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				39B68E235E5B7BE57EBBABB02AA97F64 /* CALayer+PauseAimate.h */,
+				55088AC304179A46601D52AC8D75E461 /* CALayer+PauseAimate.m */,
+				50B264B7C3BCCA81DC4951A4CB67004B /* NSObject+HSBundle.h */,
+				B3AAF0266BF2F64CADC2A5F8D76B86E4 /* NSObject+HSBundle.m */,
+				09EFD39355EF5B8F55DC443F9424792A /* UIImage+HSImage.h */,
+				8E198338935E208896575AA458AB7465 /* UIImage+HSImage.m */,
+				4DD0C9CE7630FCB802677DB23D59957F /* UIView+HSLayout.h */,
+				D5BE6AB82F81C1590C9DF7E71A137BD3 /* UIView+HSLayout.m */,
+				DEB8BB70F0711E26B7532E95AA1741A6 /* UIView+HSNib.h */,
+				4BFD5FC6B7C87594F4B543829BEAD32E /* UIView+HSNib.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		F6FBF1183EC5FD42C94326D83914A372 /* FunkyFMDownLoadListen */ = {
+			isa = PBXGroup;
+			children = (
+				60779C442E7D042862ED1D5A9F48D536 /* Classes */,
+			);
+			name = FunkyFMDownLoadListen;
+			path = FunkyFMDownLoadListen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		110F360FD7B322B8120A6F567850BD04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C294AF228730E0BEA4E1F780773F621 /* Pods-FunkyFMDownLoadListen_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8B2B95B1EEBAAEF1CB8462DF46B091 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32E93A89F36FF2BDE13B009FC97543 /* FunkySegmentBar-umbrella.h in Headers */,
+				FAF6497A4386CE01CBBB25B1B8714668 /* HSSegmentBar.h in Headers */,
+				4B9B9A27A37CB4E987A2D5955AA92655 /* HSSegmentBarConfig.h in Headers */,
+				00A8B0BCDD3B9490C14678E9179539B2 /* HSSementBarVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0F563D190C391683598FE920C584C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2A4B19F7C05FA000616575348EFADA /* Base.h in Headers */,
+				A09078F8C36CB799A1116170BF76857C /* CALayer+PauseAimate.h in Headers */,
+				D36CF8C716454C57E3E710F53A359A01 /* FunkyFMBase-umbrella.h in Headers */,
+				802D4D8E30D752D3798BBC35CC3E22E7 /* NSObject+HSBundle.h in Headers */,
+				6266506E285E40FDEE59F47CB8495D87 /* Sington.h in Headers */,
+				CEAA5B264B31693DEAA99FB307954B53 /* UIImage+HSImage.h in Headers */,
+				1CC86664E578FD4273B4EAD5E597FB92 /* UIView+HSLayout.h in Headers */,
+				B20DD607EB5CB30F2EC43147B891440A /* UIView+HSNib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A60923A52395601EEC7478D5CCFC803 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF91BA6EDCE5E1C2286B7D0A59368DE6 /* DownLoadListernAPI.h in Headers */,
+				9EB86FC0CED1AAAC1154E3BD8A8BBAF8 /* FunkyFMDownLoadListen-umbrella.h in Headers */,
+				4488F16EB3552E016EB17CF7DB7A5995 /* HSAlbumTVC.h in Headers */,
+				7D0F7BD07A00261366C5D5E150CC7586 /* HSDownLoadBaseTVC.h in Headers */,
+				16D3AB518F6DF71DDDC97826470BE007 /* HSDownLoadingTVC.h in Headers */,
+				5D6AE4C3BEB6E12C2009E04DE3128F81 /* HSDownLoadListenVC.h in Headers */,
+				01EA469340E579D6BC8A36F7DCFBEA56 /* HSNoDownLoadView.h in Headers */,
+				E55EC125FC7171ABE4A2385D11AAFE3C /* HSVoiceTVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C283398168A4688C261CB618A83EB9F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92065E645B304F28837F800223591617 /* Pods-FunkyFMDownLoadListen_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A58BFD5C7D9E9DFCBE7536D71CD7B3A /* Pods-FunkyFMDownLoadListen_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0440AAA2D9B095D942C24587DEC86F88 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoadListen_Tests" */;
+			buildPhases = (
+				F693B3FC61E9128A43A346B57E1C1412 /* Sources */,
+				44749E68EC0AA9B04BC63DC09F5AD6BC /* Frameworks */,
+				110F360FD7B322B8120A6F567850BD04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FunkyFMDownLoadListen_Tests";
+			productName = "Pods-FunkyFMDownLoadListen_Tests";
+			productReference = 102BC5FC24BD0B1702E742B74735F12D /* Pods_FunkyFMDownLoadListen_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D04868108CD5ABB3AE98C96C35D835F /* FunkySegmentBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB00FB8DC3A9463B20C05CF1BA99CBFB /* Build configuration list for PBXNativeTarget "FunkySegmentBar" */;
+			buildPhases = (
+				CD1713FB57F042DD35F0BF07EAB4D14E /* Sources */,
+				81C9FE2F86E7EDFD671042A3F6F7D370 /* Frameworks */,
+				3E8B2B95B1EEBAAEF1CB8462DF46B091 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD089BB5C937B31F4954D0C65957738 /* PBXTargetDependency */,
+			);
+			name = FunkySegmentBar;
+			productName = FunkySegmentBar;
+			productReference = 66F09907CDE2DD22C2CD92DED6B39EC5 /* FunkySegmentBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2995A1340CA9802505212879E312F4D8 /* Pods-FunkyFMDownLoadListen_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF149AB96CB90BDF2709339AFF537343 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoadListen_Example" */;
+			buildPhases = (
+				99BFFFA9E4C2AF257C22DAF4EE8254F1 /* Sources */,
+				74DB9CD93E51DF6150773732102AEA0E /* Frameworks */,
+				C283398168A4688C261CB618A83EB9F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC6357597CA6FDC5DBA82DB026F6A1D /* PBXTargetDependency */,
+				AE970A4F77383B5BE19007A52611384B /* PBXTargetDependency */,
+				FBE672FFFB6BABDE34134277341861D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-FunkyFMDownLoadListen_Example";
+			productName = "Pods-FunkyFMDownLoadListen_Example";
+			productReference = 0E806D02F3BF2AC2BD5020D4B3C15B25 /* Pods_FunkyFMDownLoadListen_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		464A2021BF694D9407117B8E4568DB18 /* FunkyFMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942561C214045322A1C29292C078209D /* Build configuration list for PBXNativeTarget "FunkyFMBase" */;
+			buildPhases = (
+				121BC59663E672FF6AF583C70CFB5CF3 /* Sources */,
+				CCE3021F700C69121F08A84C9CFFD400 /* Frameworks */,
+				4A0F563D190C391683598FE920C584C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkyFMBase;
+			productName = FunkyFMBase;
+			productReference = 3D8032865035150537A7FA2FBF6F8D61 /* FunkyFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5515AB8E5CADC265B4D88D0562994C03 /* FunkyFMDownLoadListen-FunkyFMDownLoadListen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74683425A84A6E729568B649942297BC /* Build configuration list for PBXNativeTarget "FunkyFMDownLoadListen-FunkyFMDownLoadListen" */;
+			buildPhases = (
+				69D697B66BC6A98D4FE6AB65D325B9CA /* Sources */,
+				864BC44D6790C9E4E88A65AB3326033A /* Frameworks */,
+				2E55B618594AE9FF4C8E86C0848E695E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FunkyFMDownLoadListen-FunkyFMDownLoadListen";
+			productName = "FunkyFMDownLoadListen-FunkyFMDownLoadListen";
+			productReference = 72DF617FE4FB457FAE317E07966EAE39 /* FunkyFMDownLoadListen.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7D039587EE975554A709817C58D03F69 /* FunkyFMDownLoadListen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD40D2BC19068E307ABF1F495ECDB2F /* Build configuration list for PBXNativeTarget "FunkyFMDownLoadListen" */;
+			buildPhases = (
+				E1688213F44DC679654EF0E1309B6E45 /* Sources */,
+				F86E1E7FBE469683DFCABF16CCC90901 /* Frameworks */,
+				2A65B50710095C506B5F8D7249FE3018 /* Resources */,
+				6A60923A52395601EEC7478D5CCFC803 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33FA41061B94A4AD7F7A63E6A1F85DB1 /* PBXTargetDependency */,
+				A29D74934B71759ADD5F5CA8426DAAA2 /* PBXTargetDependency */,
+				DE1582C5F35D6937A80296C1068DFF3E /* PBXTargetDependency */,
+			);
+			name = FunkyFMDownLoadListen;
+			productName = FunkyFMDownLoadListen;
+			productReference = E8C9FB5E038C0151792F48F20EDAD22B /* FunkyFMDownLoadListen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0BAA3280C7A774C842C645164D85B1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464A2021BF694D9407117B8E4568DB18 /* FunkyFMBase */,
+				7D039587EE975554A709817C58D03F69 /* FunkyFMDownLoadListen */,
+				5515AB8E5CADC265B4D88D0562994C03 /* FunkyFMDownLoadListen-FunkyFMDownLoadListen */,
+				1D04868108CD5ABB3AE98C96C35D835F /* FunkySegmentBar */,
+				2995A1340CA9802505212879E312F4D8 /* Pods-FunkyFMDownLoadListen_Example */,
+				1A58BFD5C7D9E9DFCBE7536D71CD7B3A /* Pods-FunkyFMDownLoadListen_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A65B50710095C506B5F8D7249FE3018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AE761C8396B643C22E0597522E82ED /* FunkyFMDownLoadListen.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E55B618594AE9FF4C8E86C0848E695E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5B2385DFF1773AA24273DBB7DF0192 /* album_tracks@2x.png in Resources */,
+				4393E186C8A2397B6A268E955910F8D1 /* album_tracks@3x.png in Resources */,
+				8E804BAC12D0B032DCBE2B5E90EACDDE /* btn_downloadsound_pause_h@2x.png in Resources */,
+				46C9AD642B40D32225990E67F680868D /* btn_downloadsound_pause_h@3x.png in Resources */,
+				80F0F1D005586C139E3151D9CDC960EF /* btn_downloadsound_pause_n@2x.png in Resources */,
+				57591CD0CA0270913E07C0753BC6E3B5 /* btn_downloadsound_pause_n@3x.png in Resources */,
+				8DE63C56226C8A69B1747FCE57C82FF6 /* cell_download.png in Resources */,
+				EDEAED350D631CC57B82B999F002A392 /* cell_download@3x.png in Resources */,
+				3339DC5FC66E73654E15B88B65F2D805 /* cell_download_loading@2x.png in Resources */,
+				372D8C01A0F5CD61FF76EDB065473588 /* cell_download_loading@3x.png in Resources */,
+				2A429C4C343573DBCE8890CD98971F9B /* cell_downloaded@2x.png in Resources */,
+				9A3BEBBEE3C4F4E57D1BC7D32D6FAC82 /* cell_downloaded@3x.png in Resources */,
+				8C34D72D4A6F486C0815CDC6848EAB32 /* cell_downstop@2x.png in Resources */,
+				EE2DCDB3500A72C281708496C3493A3A /* cell_downstop@3x.png in Resources */,
+				7D1C62CA45A78C3B982A2ABE4EFFBC44 /* cell_sound_disable@2x.png in Resources */,
+				0A898F43ECD6E3642EE1C2346F647242 /* cell_sound_disable@3x.png in Resources */,
+				7BBBBFA1DDA7FE548E1619FE64BB0276 /* cell_sound_pause_n@2x.png in Resources */,
+				71E19F782D88E515EB22A3F5D9CE6217 /* cell_sound_pause_n@3x.png in Resources */,
+				B8CD58C548F9B8996FA7CA3A376BCF65 /* cell_sound_play_n@2x.png in Resources */,
+				486461807B98CD082778AE417FB8EF88 /* cell_sound_play_n@3x.png in Resources */,
+				E4E1B2885F50E078787EBF19491BB97C /* deleteCell_h@2x.png in Resources */,
+				3C1A6263C5742B0353EC1F3EA324EBFD /* deleteCell_h@3x.png in Resources */,
+				E59EEA6C9BC99C8BD2474E59F46493F3 /* find_albumcell_cover_bg@2x.png in Resources */,
+				5B0AAD2A127D6C265A1B06EB6872FC69 /* find_albumcell_play@2x.png in Resources */,
+				57896A452C361FDE69A7F7F4CB95DBEA /* iconImage.png in Resources */,
+				A333A940272C817D00FE6CF748656689 /* newAblum_free_download@2x.png in Resources */,
+				E57D9BD635321E984AE12DC6E4C8CEAA /* newAblum_free_download@3x.png in Resources */,
+				3B4776903A5917E14D6F0D0E6D1DE394 /* noData_download.png in Resources */,
+				A8A9F297D278CDCB54C041FDC30127CA /* noData_downloading@2x.png in Resources */,
+				A1354F8514E0E7F30C9C7D942CBC0211 /* noData_downloading@3x.png in Resources */,
+				A1FB4AC98352EDAE634C5E05997665F6 /* np_more_down@2x.png in Resources */,
+				D77E607EAF187F3937752A21EE0070CE /* np_more_down@3x.png in Resources */,
+				33502145BD143884E515CB036EECE035 /* paused@2x.png in Resources */,
+				7043B1D0BC37DEBECA3FD792E8E5E28F /* paused@3x.png in Resources */,
+				13E31B536FF56398B86144648900173A /* pay_downloadfail@2x.png in Resources */,
+				62C20EC01A28BC19741FA82581E1E572 /* pay_downloadfail@3x.png in Resources */,
+				B4092C18A6E42E21376D47E0015FBF0E /* seg_downloaded@2x.png in Resources */,
+				FA0C805B150CDBA6EA7B147B987B8762 /* seg_downloaded@3x.png in Resources */,
+				4CD7BE210F3D18AB8E6835F43AFD9949 /* sound_comments@2x.png in Resources */,
+				FF59DD3DF3ED0BAEBB7754D29B755041 /* sound_comments@3x.png in Resources */,
+				8EEA2F5C3FE6396C8BE4BBB23DB01082 /* sound_downloading@2x.png in Resources */,
+				924C7FF884EFEE8C6479F9E02DEA4918 /* sound_duration@2x.png in Resources */,
+				258CA51A9512910E2D258BA9D287F15F /* sound_duration@3x.png in Resources */,
+				16102D3BBE3FA5CBAE2AEE8AEB9A829E /* sound_progress_h@2x.png in Resources */,
+				147AE4E78D0D258E47A4A7C9EC1EFE2A /* sound_progress_n@2x.png in Resources */,
+				AA8739D87E14814BFA19E7277260A3F9 /* sound_sizes@2x.png in Resources */,
+				88EBD52F6311DF17983C8B364ED81BAC /* sound_sizes@3x.png in Resources */,
+				D649AC13E0719F438FFB58EB4C878FE8 /* tab_download_h@2x.png in Resources */,
+				54A8AC54DB9DE1DF5831C49E6C56EC6E /* tab_download_n@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121BC59663E672FF6AF583C70CFB5CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFAB96D0B1A0DECCEC615FD594A25FF /* CALayer+PauseAimate.m in Sources */,
+				4CA83DB19FAC00E3E2DAF8C8F7F11019 /* FunkyFMBase-dummy.m in Sources */,
+				DB3247A481886C48A3324D50E0C56553 /* NSObject+HSBundle.m in Sources */,
+				75FA0885E65597BCA317F29641D4BF7B /* UIImage+HSImage.m in Sources */,
+				98CB12AB5284E392510804C57B3D6CA6 /* UIView+HSLayout.m in Sources */,
+				337B0B34B9E2893871EB41840C1ABF2C /* UIView+HSNib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D697B66BC6A98D4FE6AB65D325B9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BFFFA9E4C2AF257C22DAF4EE8254F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8740C7EC8E7C3D4F2BB9C86F702752 /* Pods-FunkyFMDownLoadListen_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1713FB57F042DD35F0BF07EAB4D14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F886037FF18B483CD1B024D83E3FFEE1 /* FunkySegmentBar-dummy.m in Sources */,
+				EFC19946A7672A84FE77D9985A5CA361 /* HSSegmentBar.m in Sources */,
+				FEFD453649D67B306CAD468E4FD5FB85 /* HSSegmentBarConfig.m in Sources */,
+				27FD241514D0C8272A4019322973856B /* HSSementBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1688213F44DC679654EF0E1309B6E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE298AAAEE5FAF6D3FDD9079183C9FE /* DownLoadListernAPI.m in Sources */,
+				960B6A57424260774197B463133A4567 /* FunkyFMDownLoadListen-dummy.m in Sources */,
+				E1498A4857774BC3157555D1CE9B97B4 /* HSAlbumTVC.m in Sources */,
+				7B61023612DB3B7003545CFD9402B62A /* HSDownLoadBaseTVC.m in Sources */,
+				FABDFEF669E08A326EE6EFB7BC65A5B5 /* HSDownLoadingTVC.m in Sources */,
+				633A1939F513CCBD3B8003AD676059C1 /* HSDownLoadListenVC.m in Sources */,
+				E1968D54FE7C4698DA9109D5FFF551A7 /* HSNoDownLoadView.m in Sources */,
+				CBCF484D9F436D8C8A9B6CFCABAA4F8D /* HSNoDownLoadView.xib in Sources */,
+				46AADA8BBD3D5864ACA6C8F0366AA097 /* HSVoiceTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F693B3FC61E9128A43A346B57E1C1412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC38E3F0730960329791BBEBFD37D1C /* Pods-FunkyFMDownLoadListen_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33FA41061B94A4AD7F7A63E6A1F85DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyFMBase;
+			target = 464A2021BF694D9407117B8E4568DB18 /* FunkyFMBase */;
+			targetProxy = 11548B245B938B093432E3589B850A9C /* PBXContainerItemProxy */;
+		};
+		A29D74934B71759ADD5F5CA8426DAAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FunkyFMDownLoadListen-FunkyFMDownLoadListen";
+			target = 5515AB8E5CADC265B4D88D0562994C03 /* FunkyFMDownLoadListen-FunkyFMDownLoadListen */;
+			targetProxy = 0B4056E0E77581ED01D6CE3B99C4AB60 /* PBXContainerItemProxy */;
+		};
+		AE970A4F77383B5BE19007A52611384B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyFMDownLoadListen;
+			target = 7D039587EE975554A709817C58D03F69 /* FunkyFMDownLoadListen */;
+			targetProxy = D0746478BAE1E717A363ACC3ECA80B52 /* PBXContainerItemProxy */;
+		};
+		BDC6357597CA6FDC5DBA82DB026F6A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyFMBase;
+			target = 464A2021BF694D9407117B8E4568DB18 /* FunkyFMBase */;
+			targetProxy = FFB0466BA72D9585509BCFF643ADAC44 /* PBXContainerItemProxy */;
+		};
+		BFD089BB5C937B31F4954D0C65957738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyFMBase;
+			target = 464A2021BF694D9407117B8E4568DB18 /* FunkyFMBase */;
+			targetProxy = DF9FE156B942B528B0AC4E4B6C09411A /* PBXContainerItemProxy */;
+		};
+		DE1582C5F35D6937A80296C1068DFF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkySegmentBar;
+			target = 1D04868108CD5ABB3AE98C96C35D835F /* FunkySegmentBar */;
+			targetProxy = 78B482E26C32758196F3311183F05978 /* PBXContainerItemProxy */;
+		};
+		FBE672FFFB6BABDE34134277341861D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkySegmentBar;
+			target = 1D04868108CD5ABB3AE98C96C35D835F /* FunkySegmentBar */;
+			targetProxy = A348F76FB1D3A0546A6B58FCF7C9DA03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		182026C531D49AB0CFCB3BD8D878AFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D96A3781D3D2193CC626F010AED5F41 /* FunkyFMDownLoadListen.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FunkyFMDownLoadListen";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FunkyFMDownLoadListen/ResourceBundle-FunkyFMDownLoadListen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FunkyFMDownLoadListen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E48816007BFE726D8AB1CFD0CB22CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC6D914F5D55C52954C3645884ACDFE /* FunkyFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMBase/FunkyFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMBase/FunkyFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FunkyFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		652F562C3C2E755259B7EAC9B7DFD192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CB748F8E6F0E73897862558FD5A5B6 /* Pods-FunkyFMDownLoadListen_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Example/Pods-FunkyFMDownLoadListen_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMDownLoadListen_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A28453C5CDDF25387D626E3444C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036991418EA394FF2E52D6262FF1961C /* Pods-FunkyFMDownLoadListen_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Example/Pods-FunkyFMDownLoadListen_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMDownLoadListen_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E7654CFD2851CEBB5F498A2209E5B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2CA2DE11F87BA8813F642DD5E7B5BD /* FunkySegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkySegmentBar/FunkySegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkySegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkySegmentBar/FunkySegmentBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FunkySegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F46115FA670C36EFAE02A5C8EC2BD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D96A3781D3D2193CC626F010AED5F41 /* FunkyFMDownLoadListen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMDownLoadListen/FunkyFMDownLoadListen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMDownLoadListen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMDownLoadListen/FunkyFMDownLoadListen.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FunkyFMDownLoadListen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A56707C4C6B6346DF6C0FEEB64E4F364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D96A3781D3D2193CC626F010AED5F41 /* FunkyFMDownLoadListen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMDownLoadListen/FunkyFMDownLoadListen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMDownLoadListen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMDownLoadListen/FunkyFMDownLoadListen.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkyFMDownLoadListen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC605621BEA54171A1DC4A1F256EC8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4D035ED3FE63397429D8B048830A71 /* Pods-FunkyFMDownLoadListen_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Tests/Pods-FunkyFMDownLoadListen_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMDownLoadListen_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFD1B9C2E3B4DBD699DF63729481DDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2CA2DE11F87BA8813F642DD5E7B5BD /* FunkySegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkySegmentBar/FunkySegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkySegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkySegmentBar/FunkySegmentBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkySegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE8AD82966DE90E3D8C8883FE4A615AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292DAE60C376FA0E7ED63C20B5CB651B /* Pods-FunkyFMDownLoadListen_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMDownLoadListen_Tests/Pods-FunkyFMDownLoadListen_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMDownLoadListen_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E96003F8196DDA0F589BBB1961E9F578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D96A3781D3D2193CC626F010AED5F41 /* FunkyFMDownLoadListen.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FunkyFMDownLoadListen";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FunkyFMDownLoadListen/ResourceBundle-FunkyFMDownLoadListen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FunkyFMDownLoadListen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ECD02AEC97CF27F647732368B5E435A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC6D914F5D55C52954C3645884ACDFE /* FunkyFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMBase/FunkyFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMBase/FunkyFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkyFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0440AAA2D9B095D942C24587DEC86F88 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoadListen_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC605621BEA54171A1DC4A1F256EC8E2 /* Debug */,
+				DE8AD82966DE90E3D8C8883FE4A615AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74683425A84A6E729568B649942297BC /* Build configuration list for PBXNativeTarget "FunkyFMDownLoadListen-FunkyFMDownLoadListen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96003F8196DDA0F589BBB1961E9F578 /* Debug */,
+				182026C531D49AB0CFCB3BD8D878AFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942561C214045322A1C29292C078209D /* Build configuration list for PBXNativeTarget "FunkyFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E48816007BFE726D8AB1CFD0CB22CAD /* Debug */,
+				ECD02AEC97CF27F647732368B5E435A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB00FB8DC3A9463B20C05CF1BA99CBFB /* Build configuration list for PBXNativeTarget "FunkySegmentBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7654CFD2851CEBB5F498A2209E5B34 /* Debug */,
+				BFD1B9C2E3B4DBD699DF63729481DDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD40D2BC19068E307ABF1F495ECDB2F /* Build configuration list for PBXNativeTarget "FunkyFMDownLoadListen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F46115FA670C36EFAE02A5C8EC2BD3F /* Debug */,
+				A56707C4C6B6346DF6C0FEEB64E4F364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF149AB96CB90BDF2709339AFF537343 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoadListen_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652F562C3C2E755259B7EAC9B7DFD192 /* Debug */,
+				85A28453C5CDDF25387D626E3444C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

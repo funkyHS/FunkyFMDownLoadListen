@@ -1,0 +1,24 @@
+PODS:
+  - FunkyFMBase/Base (0.1.0)
+  - FunkyFMBase/Category (0.1.0)
+  - FunkyFMDownLoadListen (0.1.0):
+    - FunkyFMBase/Base
+    - FunkySegmentBar
+  - FunkySegmentBar (0.1.1):
+    - FunkyFMBase/Category
+
+DEPENDENCIES:
+  - FunkyFMDownLoadListen (from `../`)
+
+EXTERNAL SOURCES:
+  FunkyFMDownLoadListen:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FunkyFMBase: 238f94e4e930f6ae00d5a37c7a167785509a8d9f
+  FunkyFMDownLoadListen: 9bba5a07d612a22ac4b6c741ad43678c28ec1fb6
+  FunkySegmentBar: a8cf81eaeed686352e72b9e5cc81289e4754f31e
+
+PODFILE CHECKSUM: 4ed6ba1dbfcc456c03bb3353814b2af5ac0389d4
+
+COCOAPODS: 1.2.1
