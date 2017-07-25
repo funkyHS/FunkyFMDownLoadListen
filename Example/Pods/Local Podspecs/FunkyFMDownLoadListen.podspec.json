@@ -1,6 +1,6 @@
 {
   "name": "FunkyFMDownLoadListen",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "FunkyFMDownLoadListen",
   "description": "FunkyFMDownLoadListen 是FM的第三大模块，下载听",
   "homepage": "https://github.com/funkyHS/FunkyFMDownLoadListen",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/funkyHS/FunkyFMDownLoadListen.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "FunkyFMDownLoadListen/Classes/**/*",
   "resource_bundles": {
     "FunkyFMDownLoadListen": [
       "FunkyFMDownLoadListen/Assets/*"
@@ -45,15 +46,5 @@
     "FunkySqlite": [
 
     ]
-  },
-  "subspecs": [
-    {
-      "name": "HSDownLoaderListern",
-      "source_files": "FunkyFMDownLoadListen/Classes/HSDownLoaderListern/**/*"
-    },
-    {
-      "name": "HSToadayFire",
-      "source_files": "FunkyFMDownLoadListen/Classes/HSToadayFire/**/*"
-    }
-  ]
+  }
 }

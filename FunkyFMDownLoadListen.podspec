@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FunkyFMDownLoadListen'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'FunkyFMDownLoadListen'
 
 
@@ -16,20 +16,20 @@ FunkyFMDownLoadListen 是FM的第三大模块，下载听
 
   s.ios.deployment_target = '8.0'
 
-    #s.source_files = 'FunkyFMDownLoadListen/Classes/**/*'
+  s.source_files = 'FunkyFMDownLoadListen/Classes/**/*'
   
-   s.resource_bundles = {
-     'FunkyFMDownLoadListen' => ['FunkyFMDownLoadListen/Assets/*']
-   }
+  s.resource_bundles = {
+    'FunkyFMDownLoadListen' => ['FunkyFMDownLoadListen/Assets/*']
+  }
 
 
-    s.subspec 'HSDownLoaderListern' do |hs|
-        hs.source_files = 'FunkyFMDownLoadListen/Classes/HSDownLoaderListern/**/*'
-    end
+#s.subspec 'HSDownLoaderListern' do |hs|
+#       hs.source_files = 'FunkyFMDownLoadListen/Classes/HSDownLoaderListern/**/*'
+#   end
 
-    s.subspec 'HSToadayFire' do |hs|
-        hs.source_files = 'FunkyFMDownLoadListen/Classes/HSToadayFire/**/*'
-    end
+#   s.subspec 'HSToadayFire' do |hs|
+#       hs.source_files = 'FunkyFMDownLoadListen/Classes/HSToadayFire/**/*'
+#   end
 
 
     s.dependency 'FunkySegmentBar'
