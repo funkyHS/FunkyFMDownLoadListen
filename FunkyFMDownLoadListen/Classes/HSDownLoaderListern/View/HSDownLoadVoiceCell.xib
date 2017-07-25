@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="7vh-we-ttD" customClass="HSDownLoadVoiceCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7vh-we-ttD" id="5ct-bp-szB">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WN-A9-9W0">
+                        <rect key="frame" x="13" y="13" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="6Go-fD-gi0"/>
+                            <constraint firstAttribute="width" constant="40" id="YaJ-oY-RiE"/>
+                        </constraints>
+                        <state key="normal" image="FunkyFMDownLoadListen.bundle/cell_sound_play_n"/>
+                        <state key="selected" image="FunkyFMDownLoadListen.bundle/cell_sound_pause_n"/>
+                        <connections>
+                            <action selector="playOrPause:" destination="7vh-we-ttD" eventType="touchUpInside" id="PnR-bX-HAo"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EG5-h3-bOn">
+                        <rect key="frame" x="66" y="13" width="186" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by 黄埔系傲娇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7e-DH-G6p">
+                        <rect key="frame" x="66" y="31.5" width="78.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ww-XJ-b7b">
+                        <rect key="frame" x="272" y="30" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="6Bq-Pd-fzA"/>
+                            <constraint firstAttribute="width" constant="30" id="Ftb-XE-RBp"/>
+                        </constraints>
+                        <state key="normal" image="deleteCell_h"/>
+                        <connections>
+                            <action selector="deleteFile" destination="7vh-we-ttD" eventType="touchUpInside" id="Ymw-4h-Ggv"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMu-54-vQg">
+                        <rect key="frame" x="66" y="50.5" width="44" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <state key="normal" title="87.7万" image="FunkyFMDownLoadListen.bundle/find_albumcell_play">
+                            <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCJ-uz-iw4">
+                        <rect key="frame" x="113" y="50.5" width="44" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <state key="normal" title="87.7万" image="FunkyFMDownLoadListen.bundle/sound_comments">
+                            <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaf-Gu-7E0">
+                        <rect key="frame" x="160" y="50.5" width="28" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <state key="normal" title="22" image="FunkyFMDownLoadListen.bundle/sound_duration">
+                            <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x96-d7-SKi">
+                        <rect key="frame" x="191" y="50.5" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="1" green="0.66945109420000004" blue="0.38331050500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eR1-qi-W9O" userLabel="progressBackView">
+                        <rect key="frame" x="0.0" y="69.5" width="320" height="20"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNt-N9-D3n">
+                                <rect key="frame" x="0.0" y="0.0" width="70" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="ABf-qQ-qxz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title=" 开始下载" image="FunkyFMDownLoadListen.bundle/sound_downloading">
+                                    <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" title=" 暂停下载" image="FunkyFMDownLoadListen.bundle/paused"/>
+                                <connections>
+                                    <action selector="downLoadOrPause:" destination="7vh-we-ttD" eventType="touchUpInside" id="gYS-nW-TXJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.2M/8.6M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXx-ac-Jaf">
+                                <rect key="frame" x="250" y="0.0" width="70" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="WuT-al-Hw6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" progressImage="FunkyFMDownLoadListen.bundle/sound_progress_h" trackImage="FunkyFMDownLoadListen.bundle/sound_progress_n" translatesAutoresizingMaskIntoConstraints="NO" id="XNs-z9-t6I">
+                                <rect key="frame" x="80" y="9" width="160" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69632722700000005" green="0.66666666669999997" blue="0.66666666669999997" alpha="0.51845079790000004" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FXx-ac-Jaf" firstAttribute="top" secondItem="eR1-qi-W9O" secondAttribute="top" id="0WD-P7-8O4"/>
+                            <constraint firstAttribute="height" constant="20" id="4zI-3k-LrR"/>
+                            <constraint firstItem="jNt-N9-D3n" firstAttribute="top" secondItem="eR1-qi-W9O" secondAttribute="top" id="Ev5-uj-39f"/>
+                            <constraint firstItem="FXx-ac-Jaf" firstAttribute="leading" secondItem="XNs-z9-t6I" secondAttribute="trailing" constant="10" id="KIF-hU-cbj"/>
+                            <constraint firstAttribute="bottom" secondItem="jNt-N9-D3n" secondAttribute="bottom" id="S6n-3K-bhH"/>
+                            <constraint firstAttribute="bottom" secondItem="FXx-ac-Jaf" secondAttribute="bottom" id="clw-1N-3PB"/>
+                            <constraint firstAttribute="trailing" secondItem="FXx-ac-Jaf" secondAttribute="trailing" id="hoi-hv-DOI"/>
+                            <constraint firstItem="XNs-z9-t6I" firstAttribute="leading" secondItem="jNt-N9-D3n" secondAttribute="trailing" constant="10" id="obt-4b-SEZ"/>
+                            <constraint firstItem="jNt-N9-D3n" firstAttribute="leading" secondItem="eR1-qi-W9O" secondAttribute="leading" id="rX2-hF-qje"/>
+                            <constraint firstItem="XNs-z9-t6I" firstAttribute="centerY" secondItem="eR1-qi-W9O" secondAttribute="centerY" id="y0K-12-AL4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="EG5-h3-bOn" secondAttribute="trailing" constant="60" id="153-Hv-arv"/>
+                    <constraint firstItem="6Ww-XJ-b7b" firstAttribute="centerY" secondItem="5ct-bp-szB" secondAttribute="centerY" id="8HE-zL-gFl"/>
+                    <constraint firstItem="x96-d7-SKi" firstAttribute="leading" secondItem="iaf-Gu-7E0" secondAttribute="trailing" constant="3" id="9xO-jH-lUl"/>
+                    <constraint firstItem="9WN-A9-9W0" firstAttribute="leading" secondItem="5ct-bp-szB" secondAttribute="leadingMargin" constant="5" id="Dyu-Nx-6hl"/>
+                    <constraint firstAttribute="bottom" secondItem="eR1-qi-W9O" secondAttribute="bottom" id="FLl-2a-uCb"/>
+                    <constraint firstItem="HMu-54-vQg" firstAttribute="top" secondItem="L7e-DH-G6p" secondAttribute="bottom" constant="4.5" id="FTE-sg-I7k"/>
+                    <constraint firstItem="iaf-Gu-7E0" firstAttribute="leading" secondItem="wCJ-uz-iw4" secondAttribute="trailing" constant="3" id="MBF-2R-Oas"/>
+                    <constraint firstItem="L7e-DH-G6p" firstAttribute="leading" secondItem="EG5-h3-bOn" secondAttribute="leading" id="PAw-tb-WNJ"/>
+                    <constraint firstItem="EG5-h3-bOn" firstAttribute="top" secondItem="9WN-A9-9W0" secondAttribute="top" id="Pse-li-Rov"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="6Ww-XJ-b7b" secondAttribute="trailing" constant="10" id="RJ5-WP-wY9"/>
+                    <constraint firstAttribute="trailing" secondItem="eR1-qi-W9O" secondAttribute="trailing" id="Sfu-Zp-x8V"/>
+                    <constraint firstItem="x96-d7-SKi" firstAttribute="top" secondItem="iaf-Gu-7E0" secondAttribute="top" id="gtC-94-SZj"/>
+                    <constraint firstItem="eR1-qi-W9O" firstAttribute="leading" secondItem="5ct-bp-szB" secondAttribute="leading" id="i2s-GB-rub"/>
+                    <constraint firstItem="wCJ-uz-iw4" firstAttribute="top" secondItem="HMu-54-vQg" secondAttribute="top" id="jLq-Z9-jzP"/>
+                    <constraint firstItem="EG5-h3-bOn" firstAttribute="leading" secondItem="9WN-A9-9W0" secondAttribute="trailing" constant="13" id="keI-ZV-Bp6"/>
+                    <constraint firstItem="iaf-Gu-7E0" firstAttribute="top" secondItem="wCJ-uz-iw4" secondAttribute="top" id="rlv-Lb-3b6"/>
+                    <constraint firstItem="wCJ-uz-iw4" firstAttribute="leading" secondItem="HMu-54-vQg" secondAttribute="trailing" constant="3" id="t4E-1H-LLN"/>
+                    <constraint firstItem="HMu-54-vQg" firstAttribute="leading" secondItem="L7e-DH-G6p" secondAttribute="leading" id="w8S-CI-Jdl"/>
+                    <constraint firstItem="L7e-DH-G6p" firstAttribute="top" secondItem="EG5-h3-bOn" secondAttribute="bottom" constant="-1" id="zKQ-i1-vQk"/>
+                    <constraint firstItem="9WN-A9-9W0" firstAttribute="top" secondItem="5ct-bp-szB" secondAttribute="topMargin" constant="5" id="zjS-9e-XpD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="downLoadOrPauseBtn" destination="jNt-N9-D3n" id="EBj-8H-feM"/>
+                <outlet property="downLoadProgressV" destination="XNs-z9-t6I" id="s2S-KV-j2r"/>
+                <outlet property="playOrPauseBtn" destination="9WN-A9-9W0" id="1ZJ-DZ-PY6"/>
+                <outlet property="progressBackView" destination="eR1-qi-W9O" id="0Pu-E7-eUx"/>
+                <outlet property="progressLabel" destination="FXx-ac-Jaf" id="FuZ-qd-UNo"/>
+                <outlet property="voiceAuthorLabel" destination="L7e-DH-G6p" id="GK3-NE-2xJ"/>
+                <outlet property="voiceCommentBtn" destination="wCJ-uz-iw4" id="2og-oi-Ime"/>
+                <outlet property="voiceDurationBtn" destination="iaf-Gu-7E0" id="fQz-zO-fPH"/>
+                <outlet property="voicePlayCountBtn" destination="HMu-54-vQg" id="exB-ME-tO1"/>
+                <outlet property="voicePlayProgressLabel" destination="x96-d7-SKi" id="9jn-ln-y4b"/>
+                <outlet property="voiceTitleLabel" destination="EG5-h3-bOn" id="R84-Hc-z9u"/>
+            </connections>
+            <point key="canvasLocation" x="343" y="201"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FunkyFMDownLoadListen.bundle/cell_sound_pause_n" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/cell_sound_play_n" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/find_albumcell_play" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/paused" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/sound_comments" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/sound_downloading" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/sound_duration" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/sound_progress_h" width="16" height="16"/>
+        <image name="FunkyFMDownLoadListen.bundle/sound_progress_n" width="16" height="16"/>
+        <image name="deleteCell_h" width="16" height="16"/>
+    </resources>
+</document>

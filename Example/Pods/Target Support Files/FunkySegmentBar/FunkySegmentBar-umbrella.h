@@ -10,9 +10,12 @@
 #endif
 #endif
 
-#import "HSSegmentBar.h"
 #import "HSSegmentBarConfig.h"
+#import "HSMenuBarShowDetailVC.h"
 #import "HSSementBarVC.h"
+#import "HSMenuCell.h"
+#import "HSSegmentBar.h"
+#import "HSSegmentRightLeftBtn.h"
 
 FOUNDATION_EXPORT double FunkySegmentBarVersionNumber;
 FOUNDATION_EXPORT const unsigned char FunkySegmentBarVersionString[];

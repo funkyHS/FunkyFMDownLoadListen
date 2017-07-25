@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		071C51855C94EC1C9E037906 /* Pods_FunkyFMDownLoadListen_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884965F60C98F0F9E6EDA4E7 /* Pods_FunkyFMDownLoadListen_Tests.framework */; };
+		373635B01F1677E200225155 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 373635AF1F1677E200225155 /* libsqlite3.0.tbd */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3698C964107B9DE8848A75DB /* Pods-FunkyFMDownLoadListen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunkyFMDownLoadListen_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunkyFMDownLoadListen_Example/Pods-FunkyFMDownLoadListen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		373635AF1F1677E200225155 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		5E69F7EE25E5AB06CAD30543 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FunkyFMDownLoadListen_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyFMDownLoadListen_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373635B01F1677E200225155 /* libsqlite3.0.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -95,20 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3722A08C1EEFBD11006C0D91 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		3722A09B1EEFC758006C0D91 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				373635AF1F1677E200225155 /* libsqlite3.0.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -148,8 +138,6 @@
 			children = (
 				6003F59C195388D20070C39A /* HSAppDelegate.h */,
 				6003F59D195388D20070C39A /* HSAppDelegate.m */,
-				3722A09B1EEFC758006C0D91 /* Images */,
-				3722A08C1EEFBD11006C0D91 /* Classes */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HSViewController.h */,
 				6003F5A6195388D20070C39A /* HSViewController.m */,

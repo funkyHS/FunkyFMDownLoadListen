@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FunkyFMDownLoadListen/Classes/**/*",
   "resource_bundles": {
     "FunkyFMDownLoadListen": [
       "FunkyFMDownLoadListen/Assets/*"
@@ -30,6 +29,31 @@
     ],
     "FunkyFMBase/Base": [
 
+    ],
+    "FunkyFMBase/Network": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "FunkyFMDownLoad": [
+
+    ],
+    "FunkyPlayerService": [
+
+    ],
+    "FunkySqlite": [
+
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "HSDownLoaderListern",
+      "source_files": "FunkyFMDownLoadListen/Classes/HSDownLoaderListern/**/*"
+    },
+    {
+      "name": "HSToadayFire",
+      "source_files": "FunkyFMDownLoadListen/Classes/HSToadayFire/**/*"
+    }
+  ]
 }
