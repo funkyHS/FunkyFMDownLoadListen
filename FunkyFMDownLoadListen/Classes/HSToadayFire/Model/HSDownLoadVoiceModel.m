@@ -7,6 +7,12 @@
 //
 
 #import "HSDownLoadVoiceModel.h"
+#import "HSModelProtocol.h"
+
+
+@interface HSDownLoadVoiceModel ()<HSModelProtocol>
+
+@end
 
 @implementation HSDownLoadVoiceModel
 

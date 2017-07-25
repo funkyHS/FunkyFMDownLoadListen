@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HSModelProtocol.h"
 
-@interface HSDownLoadVoiceModel : NSObject <HSModelProtocol>
+@interface HSDownLoadVoiceModel : NSObject 
 
 
 
